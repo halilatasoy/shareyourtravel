@@ -1,0 +1,122 @@
+
+body {
+	font-family:"Georgia", "Cambria", "Times New Roman";
+	background-color: #808080;
+	font-size: 100%;
+	
+}
+h1, h2, h3, nav, footer {
+	font-family:"Trebuchet MS", "Lucida Grande", "Tahoma";
+	
+}
+h1 {
+	font-size: 24px;	
+}
+h2 {
+	font-size: 14px;
+}
+h3 {
+	font-size: 18px;
+        color: #004c99;
+        margin: 0 0 0 0;
+        padding: 0.25 em;
+}
+p {
+	font-size: 16px;
+}
+nav {
+	font-size: 18px
+        color: #ffffff;
+        
+}
+
+/* link styling */
+
+a:hover {
+	background-color: #ffffff;
+}
+
+a:visited {
+	background-color: #000000;
+}
+
+/* header and navigation */
+
+header, footer { 
+	color: #99ccff;
+	background-color: #004c99;
+	margin: 0em 4em 0em 4em; 
+	
+}
+
+hgroup {
+	padding: 1em;
+	 /* top left bottom right */
+}
+
+nav {
+	background-color: #c0c0c0;
+}
+
+nav ul li {
+	list-style: none;
+        display: inline;
+        
+	
+	
+}
+
+nav {
+	padding: 0.25em;
+        
+       
+	
+}
+
+nav a {
+	padding: 0.25em;
+	
+}
+
+/* article styling */
+
+article {
+	background-color: #a0a0a0;
+	margin: 1em 4em 1em 4em; /* top left bottom right */
+	padding:0.5em;
+}
+
+.byline, figcaption {
+	color: #404040;
+	font-size: italic;
+	font-size: 14px;
+}
+
+p {
+	margin: 0 0 0.5em 0;
+}
+
+figure {
+	margin: 0.5em 0 0.5em 0;
+	
+}
+
+figure img {
+	padding: 0.25em;
+	border: solid 1px #999999;
+	
+}
+
+figure div {
+	margin: 0.2em 0 2em 0;
+	padding: 0.5em;
+	width: 485px;
+	background-color: #9FAAB0;
+	border: solid 1px #999999;
+	background-image: url(images/gray-gradient.gif);
+	background-repeat: repaet-x;
+}
+
+figcaption {
+	margin-bottom: 0.5em;
+}
